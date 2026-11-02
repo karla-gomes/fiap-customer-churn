@@ -1,5 +1,6 @@
 # Data
-/data/
+# Ignora arquivos soltos na raiz de data (sem ignorar subpastas)
+/data/*.*
 
 # Mac OS-specific storage files
 .DS_Store
