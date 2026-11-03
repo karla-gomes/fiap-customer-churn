@@ -53,10 +53,13 @@ COLUMNS_TO_DROP = [
     "Longitude", 
     "Churn Label", 
     "Churn Score", 
-    "Churn Reason"
+    "Churn Reason",
     'Total Charges', 
     'Phone Service'
 ]
+
+# Variável adicionada para evitar erro de importação no dataset.py
+FEATURES_TO_DROP = []
 
 # =====================================================================
 # 4. FUNÇÕES UTILITÁRIAS
