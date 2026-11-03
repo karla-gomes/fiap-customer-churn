@@ -1,4 +1,4 @@
-"""Leitura, limpeza estrutural e divisão treino/teste (regras determinísticas, sem aprender do dado)."""
+"""Leitura, limpeza estrutural e divisão treino/teste."""
 from pathlib import Path
 
 import numpy as np

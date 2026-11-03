@@ -15,9 +15,12 @@ def test_preprocess_payload(monkeypatch):
     
     df_clean = predictor.preprocess_payload(raw_payload)
     
+
     # Valida que as colunas definidas em COLUMNS_TO_DROP foram removidas com sucesso
-    assert "Total Charges" not in df_clean.columns
     assert "CustomerID" not in df_clean.columns
     
     # Valida que colunas de features válidas continuam no DataFrame
     assert "Monthly Charges" in df_clean.columns
+
+    # Total Charges é feature do modelo campeão: branco vira 0.0 (cliente novo)
+    assert df_clean["Total Charges"].iloc[0] == 0.0
