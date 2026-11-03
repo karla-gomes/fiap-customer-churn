@@ -23,7 +23,7 @@ REPORTS_DIR = PROJ_ROOT / "reports"
 FIGURES_DIR = REPORTS_DIR / "figures"
 
 # Nomes de arquivos alinhados com o salvamento do Notebook V3
-MODEL_FILENAME = "campeao.pkl"
+MODEL_FILENAME = "campeao_otimizado.pkl"
 METADATA_FILENAME = "campeao_metadata.json"
 DATA_RAW_PATH = RAW_DATA_DIR / "Telco_customer_churn.xlsx"
 
@@ -54,8 +54,6 @@ COLUMNS_TO_DROP = [
     "Churn Label", 
     "Churn Score", 
     "Churn Reason",
-    'Total Charges', 
-    'Phone Service'
 ]
 
 # Variável adicionada para evitar erro de importação no dataset.py
