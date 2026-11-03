@@ -35,7 +35,6 @@ TEST_SIZE = 0.20
 CV_FOLDS = 5
 
 TARGET_COL = "Churn Value"
-BUSINESS_BASELINE_SCORE = "Churn Score"
 
 # =====================================================================
 # 3. PRÉ-PROCESSAMENTO E LIMPEZA
