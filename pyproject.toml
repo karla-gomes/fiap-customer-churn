@@ -24,6 +24,7 @@ dependencies = [
     "fastapi>=0.162.0",
     "imblearn>=0.0",
     "joblib>=1.6.0",
+    "kagglehub>=1.0.3",
     "logger>=1.4",
     "loguru>=0.7.3",
     "missingno>=0.5.2",
