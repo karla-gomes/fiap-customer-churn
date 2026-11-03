@@ -55,6 +55,8 @@ COLUMNS_TO_DROP = [
     "Churn Label", 
     "Churn Score", 
     "Churn Reason"
+    'Total Charges', 
+    'Phone Service'
 ]
 
 # =====================================================================
