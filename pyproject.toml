@@ -21,17 +21,25 @@ classifiers = [
 requires-python = "~=3.12.0"
 dependencies = [
     "dvc>=3.67.1",
+    "fastapi>=0.162.0",
     "imblearn>=0.0",
+    "joblib>=1.6.0",
+    "logger>=1.4",
+    "loguru>=0.7.3",
     "missingno>=0.5.2",
     "mlflow>=3.17.2",
     "openpyxl>=3.1.5",
     "optuna>=5.0.0",
+    "pandas>=3.1.0",
+    "python-dotenv>=1.2.4",
     "scikit-learn>=1.9.1",
     "seaborn>=0.13.2",
+    "uvicorn>=0.54.0",
 ]
 
 [dependency-groups]
 dev = [
+    "httpx>=0.28.1",
     "ipykernel>=7.4.0",
     "jupyter>=1.1.1",
     "pytest>=9.2.0",
@@ -51,3 +59,6 @@ extend-select = ["I"]  # Add import sorting
 known-first-party = ["src"]
 force-sort-within-sections = true
 
+[tool.pytest.ini_options]
+pythonpath = ["."]
+testpaths = ["tests"]
