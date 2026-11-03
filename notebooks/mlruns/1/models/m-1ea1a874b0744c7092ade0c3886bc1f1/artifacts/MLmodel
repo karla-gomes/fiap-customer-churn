@@ -1,4 +1,4 @@
-artifact_path: file:c:/Users/sgome/Documents/Projetos/fiap-customer-churn/fiap-customer-churn/notebooks/mlruns/1/models/m-452e802a212b454b9e5c55434dc2bb1d/artifacts
+artifact_path: file:c:/Users/sgome/Documents/Projetos/fiap-customer-churn/fiap-customer-churn/notebooks/mlruns/1/models/m-1ea1a874b0744c7092ade0c3886bc1f1/artifacts
 flavors:
   python_function:
     env:
@@ -15,9 +15,9 @@ flavors:
     sklearn_version: 1.9.1
     skops_trusted_types: null
 mlflow_version: 3.17.2
-model_id: m-452e802a212b454b9e5c55434dc2bb1d
+model_id: m-1ea1a874b0744c7092ade0c3886bc1f1
 model_size_bytes: 274657
-model_uuid: m-452e802a212b454b9e5c55434dc2bb1d
+model_uuid: m-1ea1a874b0744c7092ade0c3886bc1f1
 prompts: null
-run_id: c3e672bafb0f40a0bdb767ccb583b94c
-utc_time_created: '2026-11-02 22:03:53.036069'
+run_id: e72745428f58413ababe584d92dfd6f5
+utc_time_created: '2026-11-03 19:27:52.373633'
