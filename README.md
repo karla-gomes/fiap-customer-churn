@@ -2,6 +2,19 @@
 
 Pipeline preditivo de churn para uma operadora de telecomunicações: EDA, comparação de modelos clássicos (Regressão Logística, Random Forest e MLP, com Scikit-Learn) e modelo campeão servido via API REST (FastAPI). Projeto da Fase 1 da pós tech em Engenharia de Machine Learning da FIAP.
 
+## ML Canvas
+
+| Bloco | Descrição |
+|---|---|
+| **Problema e contexto** | Uma operadora de telecomunicações perde clientes em ritmo acelerado. A diretoria precisa identificar com antecedência quem tem risco de cancelar. |
+| **Proposta de valor** | Reduzir a taxa de churn trimestral, direcionando as ações de retenção para os clientes de maior risco, em vez de abordar toda a base. |
+| **Stakeholders** | Diretoria (patrocínio), equipe de dados/TI (modelo e API), CRM (campanhas de retenção) e atendimento (contato com o cliente). |
+| **Tarefa de ML** | Classificação binária: o cliente cancela no trimestre (`Churn Value` = 1) ou permanece (0). A saída é uma propensão de 0 a 1. |
+| **Decisão suportada** | Priorizar quais clientes recebem ação de retenção. A propensão ranqueia; a decisão final e o limiar são do negócio. |
+| **Fonte de dados** | IBM Telco Customer Churn (Kaggle `yeanzc/telco-customer-churn-ibm-dataset`): 7.043 clientes, 26,5% de churn, Califórnia (EUA). |
+
+
+
 ## Resultados
 
 Conjunto de teste (1.409 clientes, 26,5% de churn):
